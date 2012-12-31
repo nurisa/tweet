@@ -1,5 +1,8 @@
-Tweet::Application.routes.draw do
-  get "home/index"
+Tweet::Application.routes.draw do  
+  get "home/help"
+  get "home/about"
+
+  get "user/new"
   
   root :to => 'home#index'
   # The priority is based upon order of creation:
